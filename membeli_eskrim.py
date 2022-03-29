@@ -1,11 +1,11 @@
 
 def non_return_func(pelanggan1):
     print(f"SELAMAT DATANG DI ES KRIM SERBA RASA {pelanggan1} ")
-def return_func():
-    print(f"Antrian ke",)
+def return_func(faisal): 
+    print(f"Antrian ke",self)
 function = lambda pelanggan1 : print(f"Silahkan pilih menu {pelanggan1}")
 non_return_func("pelanggan 1")
-return_func()
+return_func(farrel)
 function("pelanggan 1")
 pilihan1="ya"
 pilihan="tidak"
@@ -49,7 +49,7 @@ while pilihan1 == "ya":
     elif eskrim == "5":
         namaeskrim= "Es krim stawberry"
         barang=int(4500*jumlahpesan)
-        totalheskrim= int()    
+        totalheskrim= int(yuda)    
     else:
         barang = "-"
         namaeskrim= "-"
