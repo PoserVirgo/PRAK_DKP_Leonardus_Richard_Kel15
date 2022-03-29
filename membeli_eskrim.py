@@ -1,8 +1,8 @@
 
 def non_return_func(pelanggan1):
     print(f"SELAMAT DATANG DI ES KRIM SERBA RASA {pelanggan1} ")
-def return_func(part):
-    print(f"Antrian ke",part)
+def return_func(self):
+    print(f"Antrian ke",self)
 function = lambda pelanggan1 : print(f"Silahkan pilih menu {pelanggan1}")
 non_return_func("pelanggan 1")
 return_func(1)
